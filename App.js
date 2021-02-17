@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createDrawerNavigator } from '@react-navigation/drawer';
+
 import Home from './src/telas/inicial';
 import Sobre from './src/telas/sobre';
 import Contato from './src/telas/contato';
@@ -26,8 +27,7 @@ export default function App() {
         <Drawer.Screen name="Doar" component={Doar} options={{ title: 'Doar' }} />
         <Drawer.Screen name="Contato" component={Contato} options={{ title: 'Contato' }} />
         <Drawer.Screen name="Login" component={Login} options={{ title: 'Login' }} />
-
-
+        
       </Drawer.Navigator>
     </NavigationContainer>
   );
