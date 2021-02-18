@@ -21,12 +21,12 @@ export default function App() {
     <NavigationContainer>
       <Drawer.Navigator>
         
-        <Drawer.Screen name="Home" component={Home} options={{ title: 'Home' }} />
-        <Drawer.Screen name="Sobre" component={Sobre} options={{ title: 'Sobre' }} />
+        <Drawer.Screen name="Home"     component={Home} options={{ title: 'Home' }} />
+        <Drawer.Screen name="Sobre"    component={Sobre} options={{ title: 'Sobre' }} />
         <Drawer.Screen name="Mediador" component={Mediador} options={{ title: 'Mediador' }} />
-        <Drawer.Screen name="Doar" component={Doar} options={{ title: 'Doar' }} />
-        <Drawer.Screen name="Contato" component={Contato} options={{ title: 'Contato' }} />
-        <Drawer.Screen name="Login" component={Login} options={{ title: 'Login' }} />
+        <Drawer.Screen name="Doar"     component={Doar} options={{ title: 'Doar' }} />
+        <Drawer.Screen name="Contato"  component={Contato} options={{ title: 'Contato' }} />
+        <Drawer.Screen name="Login"    component={Login} options={{ title: 'Login' }} />
         
       </Drawer.Navigator>
     </NavigationContainer>
